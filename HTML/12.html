@@ -1,0 +1,89 @@
+<link rel="stylesheet" href="style.css"
+<div class="outer">
+    <div class="product">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7TUp7SUVmVzJ44zv-8HNZ8tgFu-1fPOBHukEhK-PvBmO2uL1LHjUjt94&s=10" alt="">
+        <h2><s>2000</s> 1000</h2>
+        <p>Shoes</p>
+        <button>Add To Cart</button>
+    </div>
+    <div class="product">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7TUp7SUVmVzJ44zv-8HNZ8tgFu-1fPOBHukEhK-PvBmO2uL1LHjUjt94&s=10" alt="">
+        <h2><s>2000</s> 1000</h2>
+        <p>Shoes</p>
+        <button>Add To Cart</button>
+    </div>
+    <div class="product">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7TUp7SUVmVzJ44zv-8HNZ8tgFu-1fPOBHukEhK-PvBmO2uL1LHjUjt94&s=10" alt="">
+        <h2><s>2000</s> 1000</h2>
+        <p>Shoes</p>
+        <button>Add To Cart</button>
+    </div>
+    <div class="product">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7TUp7SUVmVzJ44zv-8HNZ8tgFu-1fPOBHukEhK-PvBmO2uL1LHjUjt94&s=10" alt="">
+        <h2><s>2000</s> 1000</h2>
+        <p>Shoes</p>
+        <button>Add To Cart</button>
+    </div>
+    <div class="product">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7TUp7SUVmVzJ44zv-8HNZ8tgFu-1fPOBHukEhK-PvBmO2uL1LHjUjt94&s=10" alt="">
+        <h2><s>2000</s> 1000</h2>
+        <p>Shoes</p>
+        <button>Add To Cart</button>
+    </div>
+</div>
+
+<style>
+    .outer{
+        border: solid;
+        display: flex;
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: bisque;
+        flex-wrap: wrap;
+    }
+    .product{
+        width: calc(33.3333% - 40px);
+        border: 1px solid lightgrey;
+        padding: 30px;
+        box-sizing: border-box;
+        margin: 0 20px;
+        text-align: center;
+        font-family: arial;
+        border-radius: 30px;
+    }
+
+    .product img{
+        width: 100%;
+        height: auto;
+    }
+
+    button{
+        width: 80%;
+        height: 30px;
+        border: 0;
+        background-color: #000;
+        border-radius: 20px;
+        color: #fff;
+        transition: background-color 1s;
+    }
+
+    button:hover{
+        background-color: tomato;
+        cursor: pointer;
+    }
+
+    /* css3 media query */
+    @media screen and (max-width: 600px){
+        body{
+            background-color: gray;
+        }
+        .outer{
+            border: solid;
+            width: 100%;
+        }
+        .product{
+            width: calc(50% - 40px);
+        }
+    }
+</style>
