@@ -1,0 +1,21 @@
+<script>
+    //Math.lib
+    console.log(Math);
+    console.log(Math.random()); //0 and <1
+
+    let no1 = Math.round(Math.random() * 10);
+    let no2 = Math.round(Math.random() * 10);
+    console.log(no1, no2);
+
+    let message =`Enter ${no1} + ${no2}`;
+    console.log(message);
+
+    let ans = prompt(message);
+    if(ans == "" || ans != (no1+no2)){
+        console.log('Invalid');
+    }
+    else{
+        console.log('Valid');
+    }
+
+</script>
