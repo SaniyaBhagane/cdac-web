@@ -1,0 +1,21 @@
+<script>
+  const values = [
+    'A', 'B', 'C', 'D', 'E', 'F', 'G',
+    'H', 'I', 'J', 'K', 'L', 'M', 'N',
+    'O', 'P', 'Q', 'R', 'S', 'T', 'U',
+    'V', 'W', 'X', 'Y', 'Z'
+];
+
+console.log(values, values.length);
+console.log(values.length * Math.random());
+console.log(Math.floor(values.length *Math.random())); // index number
+
+let captcha='';
+for(let  i=i;i<=5;i++){
+    let index=Math.floor(values.length*Math.random());
+    console.log(index,values[index]);
+    captcha=captcha+values[index];
+
+}
+console.log(captcha);
+</script>
