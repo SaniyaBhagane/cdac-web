@@ -1,0 +1,31 @@
+header img{
+    width:100px;
+}
+
+header ul li{
+    padding-left:10px ;
+    padding-right: 10px; 
+}
+
+
+footer{
+    background-color:#000;
+    color: #ccc;
+    min-height: 100px;
+}
+
+footer ul li{
+    line-height: 2;
+}
+
+footer ul li a:hover{
+    color:#fff;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
