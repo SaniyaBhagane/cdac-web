@@ -1,0 +1,13 @@
+<script>
+    let myvar = function(p, r, n){
+        console.log(p, r, n);
+        n = n*12;
+        r = r/12/100;
+        let emi = p * r * (1+r)**n / ((1+r)**n-1);
+        console.log(emi);
+    }
+    console.log(typeof myvar);
+    myvar(250000, 8, 30);
+    myvar(350000, 8, 30);
+    
+</script>
