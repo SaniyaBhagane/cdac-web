@@ -1,0 +1,584 @@
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<div>
+    <!-- 1. Simple Heading -->
+<section class="mb-8">
+  <h1 class="mt-8 text-center text-4xl font-bold">
+    Welcome to Tailwind
+  </h1>
+</section>
+
+<!-- 2. Colored Paragraph -->
+<section class="mb-8">
+  <p class="mx-auto max-w-2xl text-center text-lg text-gray-500">
+    Tailwind CSS helps us build beautiful and responsive websites
+    using utility classes directly in HTML.
+  </p>
+</section>
+
+<!-- 3. Simple Button -->
+<section class="mb-8">
+  <button class="rounded-lg bg-blue-600 px-6 py-3 text-white
+                 hover:bg-blue-800">
+    Click Me
+  </button>
+</section>
+
+<!-- 4. Button Collection -->
+<section class="mb-8 flex flex-wrap gap-3">
+  <button class="rounded bg-blue-600 px-4 py-2 text-white">Primary</button>
+  <button class="rounded bg-green-600 px-4 py-2 text-white">Success</button>
+  <button class="rounded bg-yellow-500 px-4 py-2 text-white">Warning</button>
+  <button class="rounded bg-red-600 px-4 py-2 text-white">Danger</button>
+</section>
+
+<!-- 5. Profile Card -->
+<section class="mb-8 max-w-sm rounded-xl bg-white p-6 shadow-lg">
+  <h2 class="text-2xl font-bold">Saniya Bhagne</h2>
+  <p class="mt-1 text-blue-600">Software Developer</p>
+  <p class="my-4 text-gray-600">
+    Passionate about Java, web development, and building useful applications.
+  </p>
+  <button class="rounded bg-blue-600 px-4 py-2 text-white hover:bg-blue-700">
+    View Profile
+  </button>
+</section>
+
+<!-- 6. Image Card -->
+<section class="mb-8 max-w-sm overflow-hidden rounded-xl bg-white shadow-lg">
+  <img
+    src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600"
+    alt="Workspace with a laptop"
+    class="h-48 w-full object-cover"
+  >
+  <div class="p-5">
+    <h2 class="text-xl font-bold">Web Development</h2>
+    <p class="my-3 text-gray-600">
+      Learn to build modern and responsive websites.
+    </p>
+    <button class="rounded bg-indigo-600 px-4 py-2 text-white">
+      Explore
+    </button>
+  </div>
+</section>
+
+<!-- 7. Alert Messages -->
+<section class="mb-8 space-y-3">
+  <div class="rounded-lg bg-green-100 p-4 text-green-800">
+    Success! Your task was completed.
+  </div>
+  <div class="rounded-lg bg-yellow-100 p-4 text-yellow-800">
+    Warning! Please check your input.
+  </div>
+  <div class="rounded-lg bg-red-100 p-4 text-red-800">
+    Error! Something went wrong.
+  </div>
+  <div class="rounded-lg bg-blue-100 p-4 text-blue-800">
+    Information: New updates are available.
+  </div>
+</section>
+
+<!-- 8. Badge Collection -->
+<section class="mb-8 flex flex-wrap gap-3">
+  <span class="rounded-full bg-orange-100 px-3 py-1 text-orange-800">HTML</span>
+  <span class="rounded-full bg-blue-100 px-3 py-1 text-blue-800">CSS</span>
+  <span class="rounded-full bg-yellow-100 px-3 py-1 text-yellow-800">JavaScript</span>
+  <span class="rounded-full bg-cyan-100 px-3 py-1 text-cyan-800">React</span>
+  <span class="rounded-full bg-green-100 px-3 py-1 text-green-800">Node.js</span>
+  <span class="rounded-full bg-indigo-100 px-3 py-1 text-indigo-800">Python</span>
+</section>
+
+<!-- 9. Pricing Card -->
+<section class="mb-8 max-w-sm rounded-xl bg-white p-6 text-center shadow-lg">
+  <h2 class="text-2xl font-bold">Basic</h2>
+  <p class="my-4 text-4xl font-bold text-blue-600">₹999</p>
+  <p class="text-gray-500">1 Month</p>
+  <ul class="my-5 space-y-3">
+    <li>5 Projects</li>
+    <li>Customer Support</li>
+  </ul>
+  <button class="w-full rounded-lg bg-blue-600 py-3 text-white hover:bg-blue-700">
+    Buy Now
+  </button>
+</section>
+
+<!-- 10. Login Form -->
+<section class="mb-8 max-w-md rounded-xl bg-white p-6 shadow-lg">
+  <h2 class="mb-5 text-center text-2xl font-bold">Login</h2>
+  <form class="space-y-4">
+    <div>
+      <label class="mb-1 block font-medium" for="email">Email</label>
+      <input id="email" type="email" placeholder="Enter email"
+        class="w-full rounded-lg border p-3 outline-none focus:ring-2 focus:ring-blue-500">
+    </div>
+    <div>
+      <label class="mb-1 block font-medium" for="password">Password</label>
+      <input id="password" type="password" placeholder="Enter password"
+        class="w-full rounded-lg border p-3 outline-none focus:ring-2 focus:ring-blue-500">
+    </div>
+    <div class="flex items-center justify-between gap-2 text-sm">
+      <label class="flex items-center gap-2">
+        <input type="checkbox"> Remember Me
+      </label>
+      <a href="#" class="text-blue-600 hover:underline">Forgot Password?</a>
+    </div>
+    <button type="submit" class="w-full rounded-lg bg-blue-600 py-3 text-white hover:bg-blue-700">
+      Login
+    </button>
+  </form>
+</section>
+
+<!-- 11. Spacing Practice -->
+<div class="mb-8 flex flex-wrap gap-6 bg-gray-200 p-4">
+  <div class="m-2 bg-blue-200 p-3">Margin 2, Padding 3</div>
+  <div class="m-4 bg-green-200 p-6">Margin 4, Padding 6</div>
+  <div class="m-6 bg-yellow-200 p-8">Margin 6, Padding 8</div>
+</div>
+
+<!-- 12. Width Practice -->
+<div class="mb-8 space-y-3">
+  <div class="w-1/2 bg-blue-300 p-3">50% width</div>
+  <div class="w-1/3 bg-green-300 p-3">33.33% width</div>
+  <div class="w-1/4 bg-yellow-300 p-3">25% width</div>
+  <div class="w-full bg-red-300 p-3">100% width</div>
+  <div class="w-[250px] max-w-full bg-purple-300 p-3">Fixed 250px</div>
+</div>
+
+<!-- 13. Height Practice -->
+<div class="mb-8 flex items-start gap-4">
+  <div class="h-16 w-20 bg-blue-300">64px</div>
+  <div class="h-24 w-20 bg-green-300">96px</div>
+  <div class="h-32 w-20 bg-yellow-300">128px</div>
+  <div class="h-40 w-20 bg-red-300">160px</div>
+  <div class="h-48 w-20 bg-purple-300">192px</div>
+</div>
+
+<!-- 14. Center a 300px × 200px Box -->
+<div class="mb-8 flex min-h-[400px] items-center justify-center bg-gray-200">
+  <div class="flex h-[200px] w-[300px] max-w-full items-center justify-center
+              bg-blue-600 text-xl font-bold text-white">
+    Centered Box
+  </div>
+</div>
+
+<!-- 15. Full Screen Hero -->
+<section class="flex min-h-screen flex-col items-center justify-center
+                bg-gradient-to-r from-blue-700 to-purple-700 p-6 text-center text-white">
+  <h1 class="text-4xl font-bold md:text-6xl">Build Something Amazing</h1>
+  <p class="my-6 max-w-xl text-lg">
+    Learn modern web development with Tailwind CSS.
+  </p>
+  <button class="rounded-lg bg-white px-6 py-3 font-semibold text-blue-700 hover:bg-gray-200">
+    Get Started
+  </button>
+</section>
+<!-- 16. Horizontal Menu -->
+<nav class="mb-8 flex gap-6 bg-gray-800 p-4 text-white">
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="#">Courses</a>
+  <a href="#">Contact</a>
+</nav>
+
+<!-- 17. Vertical Menu -->
+<aside class="mb-8 flex w-56 flex-col gap-2 rounded-lg bg-gray-800 p-4 text-white">
+  <a class="rounded p-3 hover:bg-gray-700" href="#">Dashboard</a>
+  <a class="rounded p-3 hover:bg-gray-700" href="#">Users</a>
+  <a class="rounded p-3 hover:bg-gray-700" href="#">Courses</a>
+  <a class="rounded p-3 hover:bg-gray-700" href="#">Settings</a>
+  <a class="rounded p-3 hover:bg-red-700" href="#">Logout</a>
+</aside>
+
+<!-- 18. Space Between -->
+<header class="mb-8 flex items-center justify-between bg-white p-5 shadow">
+  <h1 class="text-2xl font-bold text-blue-700">Infinitech</h1>
+  <button class="rounded bg-blue-600 px-5 py-2 text-white">Login</button>
+</header>
+
+<!-- 19. Three Equal Boxes -->
+<div class="mb-8 flex gap-4">
+  <div class="flex-1 rounded bg-blue-300 p-8 text-center">Box 1</div>
+  <div class="flex-1 rounded bg-green-300 p-8 text-center">Box 2</div>
+  <div class="flex-1 rounded bg-yellow-300 p-8 text-center">Box 3</div>
+</div>
+
+<!-- 20. 50–50 Layout -->
+<div class="mb-8 flex flex-col gap-4 md:flex-row">
+  <div class="flex-1 bg-blue-200 p-10 text-center">Left Content</div>
+  <div class="flex-1 bg-purple-200 p-10 text-center">Right Content</div>
+</div>
+
+<!-- 21. 70–30 Layout -->
+<div class="mb-8 flex flex-col gap-4 md:flex-row">
+  <main class="bg-blue-200 p-8 md:w-[70%]">Main Content (70%)</main>
+  <aside class="bg-yellow-200 p-8 md:w-[30%]">Sidebar (30%)</aside>
+</div>
+
+<!-- 22. Profile + Information -->
+<div class="mb-8 flex flex-col items-center gap-6 rounded-xl bg-white p-6 shadow md:flex-row">
+  <img src="https://i.pravatar.cc/160?img=47" alt="Profile"
+       class="h-32 w-32 rounded-full object-cover">
+  <div>
+    <h2 class="text-2xl font-bold">Aarav Sharma</h2>
+    <p class="text-blue-600">Frontend Developer</p>
+    <p class="mt-2 text-gray-600">Creates responsive and accessible websites.</p>
+  </div>
+</div>
+
+<!-- 23. Four Equal-Width Cards -->
+<div class="mb-8 flex flex-wrap gap-4">
+  <div class="min-w-0 flex-1 basis-40 rounded bg-blue-200 p-6">Card 1</div>
+  <div class="min-w-0 flex-1 basis-40 rounded bg-green-200 p-6">Card 2</div>
+  <div class="min-w-0 flex-1 basis-40 rounded bg-yellow-200 p-6">Card 3</div>
+  <div class="min-w-0 flex-1 basis-40 rounded bg-red-200 p-6">Card 4</div>
+</div>
+
+<!-- 24. Navbar -->
+<nav class="mb-8 flex flex-wrap items-center justify-between gap-4 bg-white p-5 shadow">
+  <a href="#" class="text-2xl font-bold text-blue-700">MyLogo</a>
+  <div class="flex flex-wrap items-center gap-5">
+    <a href="#" class="hover:text-blue-600">Home</a>
+    <a href="#" class="hover:text-blue-600">About</a>
+    <a href="#" class="hover:text-blue-600">Courses</a>
+    <a href="#" class="hover:text-blue-600">Contact</a>
+    <a href="#" class="rounded bg-blue-600 px-4 py-2 text-white">Login</a>
+  </div>
+</nav>
+
+<!-- 25. Responsive Navbar -->
+<nav class="mb-8 flex items-center justify-between bg-gray-900 p-5 text-white">
+  <a href="#" class="text-xl font-bold">MyLogo</a>
+  <button type="button" aria-label="Open menu"
+          class="text-2xl md:hidden"
+          onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
+    ☰
+  </button>
+  <div class="hidden items-center gap-5 md:flex">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Courses</a>
+    <a href="#">Contact</a>
+    <a href="#" class="rounded bg-blue-600 px-4 py-2">Login</a>
+  </div>
+  <div id="mobile-menu" class="absolute left-0 top-16 z-10 hidden w-full
+                               flex-col gap-4 bg-gray-900 p-5 md:hidden">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Courses</a>
+    <a href="#">Contact</a>
+    <a href="#">Login</a>
+  </div>
+</nav>
+
+<!-- 26. Center Login Box -->
+<div class="mb-8 flex min-h-[500px] items-center justify-center bg-gray-200 p-4">
+  <form class="w-full max-w-sm space-y-4 rounded-xl bg-white p-8 shadow-lg">
+    <h2 class="text-center text-2xl font-bold">Login</h2>
+    <input type="email" placeholder="Email"
+           class="w-full rounded border p-3">
+    <input type="password" placeholder="Password"
+           class="w-full rounded border p-3">
+    <button class="w-full rounded bg-blue-600 p-3 text-white">Sign In</button>
+  </form>
+</div>
+
+<!-- 27. Card With Bottom Button -->
+<div class="mb-8 flex min-h-80 max-w-sm flex-col rounded-xl bg-white p-6 shadow-lg">
+  <h2 class="text-xl font-bold">Premium Course</h2>
+  <p class="mt-3 text-gray-600">
+    Learn Java, databases, and web development with practical exercises.
+  </p>
+  <p class="mt-4 text-2xl font-bold">₹999</p>
+  <button class="mt-auto rounded bg-blue-600 py-3 text-white">
+    Buy Now
+  </button>
+</div>
+
+<!-- 28. Sidebar Layout -->
+<div class="mb-8 flex min-h-64 overflow-hidden rounded-lg">
+  <aside class="w-[250px] shrink-0 bg-gray-800 p-5 text-white">
+    <h2 class="font-bold">Sidebar</h2>
+    <p class="mt-3">Navigation links</p>
+  </aside>
+  <main class="min-w-0 flex-1 bg-blue-100 p-6">
+    <h2 class="text-2xl font-bold">Main Content</h2>
+    <p class="mt-2">This area occupies the remaining width.</p>
+  </main>
+</div>
+
+<!-- 29. Dashboard Header + Statistic Cards -->
+<div class="mb-8">
+  <header class="mb-6 flex justify-between rounded-lg bg-white p-5 shadow">
+    <h2 class="text-xl font-bold">Dashboard</h2>
+    <span>Admin</span>
+  </header>
+  <div class="flex flex-wrap gap-4">
+    <div class="min-w-36 flex-1 rounded-lg bg-blue-100 p-5">
+      <p>Users</p><p class="text-2xl font-bold">1,250</p>
+    </div>
+    <div class="min-w-36 flex-1 rounded-lg bg-green-100 p-5">
+      <p>Revenue</p><p class="text-2xl font-bold">₹50K</p>
+    </div>
+    <div class="min-w-36 flex-1 rounded-lg bg-yellow-100 p-5">
+      <p>Orders</p><p class="text-2xl font-bold">320</p>
+    </div>
+    <div class="min-w-36 flex-1 rounded-lg bg-purple-100 p-5">
+      <p>Products</p><p class="text-2xl font-bold">85</p>
+    </div>
+  </div>
+</div>
+
+<!-- 30. Flex Wrap: Eight Product Cards -->
+<div class="mb-8 flex flex-wrap gap-4">
+  <div class="min-w-36 flex-1 basis-40 rounded-lg bg-white p-5 shadow">Product 1</div>
+  <div class="min-w-36 flex-1 basis-40 rounded-lg bg-white p-5 shadow">Product 2</div>
+  <div class="min-w-36 flex-1 basis-40 rounded-lg bg-white p-5 shadow">Product 3</div>
+  <div class="min-w-36 flex-1 basis-40 rounded-lg bg-white p-5 shadow">Product 4</div>
+  <div class="min-w-36 flex-1 basis-40 rounded-lg bg-white p-5 shadow">Product 5</div>
+  <div class="min-w-36 flex-1 basis-40 rounded-lg bg-white p-5 shadow">Product 6</div>
+  <div class="min-w-36 flex-1 basis-40 rounded-lg bg-white p-5 shadow">Product 7</div>
+  <div class="min-w-36 flex-1 basis-40 rounded-lg bg-white p-5 shadow">Product 8</div>
+</div>
+
+<!-- 31. 2-Column Grid -->
+<div class="mb-8 grid grid-cols-2 gap-4">
+  <div class="bg-blue-200 p-8">Box 1</div>
+  <div class="bg-green-200 p-8">Box 2</div>
+  <div class="bg-yellow-200 p-8">Box 3</div>
+  <div class="bg-red-200 p-8">Box 4</div>
+  <div class="bg-purple-200 p-8">Box 5</div>
+  <div class="bg-pink-200 p-8">Box 6</div>
+</div>
+
+<!-- 32. 3-Column Grid -->
+<div class="mb-8 grid grid-cols-3 gap-4">
+  <div class="rounded bg-blue-200 p-6">Card 1</div>
+  <div class="rounded bg-green-200 p-6">Card 2</div>
+  <div class="rounded bg-yellow-200 p-6">Card 3</div>
+  <div class="rounded bg-red-200 p-6">Card 4</div>
+  <div class="rounded bg-purple-200 p-6">Card 5</div>
+  <div class="rounded bg-pink-200 p-6">Card 6</div>
+</div>
+
+<!-- 33. 4-Column Grid -->
+<div class="mb-8 grid grid-cols-4 gap-4">
+  <div class="bg-blue-200 p-6">Box 1</div>
+  <div class="bg-green-200 p-6">Box 2</div>
+  <div class="bg-yellow-200 p-6">Box 3</div>
+  <div class="bg-red-200 p-6">Box 4</div>
+  <div class="bg-purple-200 p-6">Box 5</div>
+  <div class="bg-pink-200 p-6">Box 6</div>
+  <div class="bg-indigo-200 p-6">Box 7</div>
+  <div class="bg-orange-200 p-6">Box 8</div>
+</div>
+
+<!-- 34. Grid Gap Practice -->
+<div class="mb-8">
+  <h3 class="mb-3 font-bold">Small Gap</h3>
+  <div class="mb-6 grid grid-cols-3 gap-1">
+    <div class="bg-blue-300 p-4">1</div>
+    <div class="bg-blue-300 p-4">2</div>
+    <div class="bg-blue-300 p-4">3</div>
+    <div class="bg-blue-300 p-4">4</div>
+    <div class="bg-blue-300 p-4">5</div>
+    <div class="bg-blue-300 p-4">6</div>
+    <div class="bg-blue-300 p-4">7</div>
+    <div class="bg-blue-300 p-4">8</div>
+    <div class="bg-blue-300 p-4">9</div>
+  </div>
+
+  <h3 class="mb-3 font-bold">Large Gap</h3>
+  <div class="grid grid-cols-3 gap-6">
+    <div class="bg-green-300 p-4">1</div>
+    <div class="bg-green-300 p-4">2</div>
+    <div class="bg-green-300 p-4">3</div>
+    <div class="bg-green-300 p-4">4</div>
+    <div class="bg-green-300 p-4">5</div>
+    <div class="bg-green-300 p-4">6</div>
+    <div class="bg-green-300 p-4">7</div>
+    <div class="bg-green-300 p-4">8</div>
+    <div class="bg-green-300 p-4">9</div>
+  </div>
+</div>
+
+<!-- 35. Responsive Grid -->
+<div class="mb-8 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4">
+  <div class="rounded bg-blue-200 p-8">Box 1</div>
+  <div class="rounded bg-green-200 p-8">Box 2</div>
+  <div class="rounded bg-yellow-200 p-8">Box 3</div>
+  <div class="rounded bg-red-200 p-8">Box 4</div>
+  <div class="rounded bg-purple-200 p-8">Box 5</div>
+  <div class="rounded bg-pink-200 p-8">Box 6</div>
+  <div class="rounded bg-indigo-200 p-8">Box 7</div>
+  <div class="rounded bg-orange-200 p-8">Box 8</div>
+</div>
+
+<!-- 36. Photo Gallery: 12 Images -->
+<div class="mb-8 grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
+  <img class="h-40 w-full rounded-lg object-cover"
+       src="https://picsum.photos/id/10/400/300" alt="Nature 1">
+  <img class="h-40 w-full rounded-lg object-cover"
+       src="https://picsum.photos/id/11/400/300" alt="Nature 2">
+  <img class="h-40 w-full rounded-lg object-cover"
+       src="https://picsum.photos/id/12/400/300" alt="Nature 3">
+  <img class="h-40 w-full rounded-lg object-cover"
+       src="https://picsum.photos/id/13/400/300" alt="Nature 4">
+  <img class="h-40 w-full rounded-lg object-cover"
+       src="https://picsum.photos/id/14/400/300" alt="Nature 5">
+  <img class="h-40 w-full rounded-lg object-cover"
+       src="https://picsum.photos/id/15/400/300" alt="Nature 6">
+  <img class="h-40 w-full rounded-lg object-cover"
+       src="https://picsum.photos/id/16/400/300" alt="Nature 7">
+  <img class="h-40 w-full rounded-lg object-cover"
+       src="https://picsum.photos/id/17/400/300" alt="Nature 8">
+  <img class="h-40 w-full rounded-lg object-cover"
+       src="https://picsum.photos/id/18/400/300" alt="Nature 9">
+  <img class="h-40 w-full rounded-lg object-cover"
+       src="https://picsum.photos/id/19/400/300" alt="Nature 10">
+  <img class="h-40 w-full rounded-lg object-cover"
+       src="https://picsum.photos/id/20/400/300" alt="Nature 11">
+  <img class="h-40 w-full rounded-lg object-cover"
+       src="https://picsum.photos/id/21/400/300" alt="Nature 12">
+</div>
+
+<!-- 37. Featured Card: 2 Columns -->
+<div class="mb-8 grid grid-cols-1 gap-4 md:grid-cols-3">
+  <div class="flex flex-col justify-center rounded-xl bg-blue-700 p-8 text-white md:col-span-2">
+    <span class="text-sm uppercase tracking-widest">Featured</span>
+    <h2 class="my-3 text-3xl font-bold">Full Stack Development</h2>
+    <p>Learn frontend, backend, and database technologies.</p>
+    <button class="mt-5 w-fit rounded bg-white px-5 py-2 text-blue-700">
+      Explore Course
+    </button>
+  </div>
+  <div class="rounded-xl bg-green-200 p-6">
+    <h3 class="text-xl font-bold">Java</h3>
+    <p class="mt-2">Master object-oriented programming.</p>
+  </div>
+  <div class="rounded-xl bg-yellow-200 p-6">
+    <h3 class="text-xl font-bold">SQL</h3>
+    <p class="mt-2">Learn databases and queries.</p>
+  </div>
+  <div class="rounded-xl bg-purple-200 p-6">
+    <h3 class="text-xl font-bold">React</h3>
+    <p class="mt-2">Build interactive user interfaces.</p>
+  </div>
+</div>
+
+<!-- 38. Dashboard Grid -->
+<div class="mb-8 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+  <div class="rounded-lg bg-white p-6 shadow">
+    <p class="text-gray-500">Users</p>
+    <h2 class="text-3xl font-bold">1,250</h2>
+  </div>
+  <div class="rounded-lg bg-white p-6 shadow">
+    <p class="text-gray-500">Revenue</p>
+    <h2 class="text-3xl font-bold">₹75,000</h2>
+  </div>
+  <div class="rounded-lg bg-white p-6 shadow">
+    <p class="text-gray-500">Orders</p>
+    <h2 class="text-3xl font-bold">320</h2>
+  </div>
+  <div class="rounded-lg bg-white p-6 shadow md:col-span-2">
+    <h2 class="mb-4 text-xl font-bold">Sales Chart</h2>
+    <div class="flex h-40 items-end justify-around gap-4 border-b border-gray-300 px-4">
+      <div class="h-1/3 w-10 rounded-t bg-blue-400"></div>
+      <div class="h-2/3 w-10 rounded-t bg-blue-500"></div>
+      <div class="h-1/2 w-10 rounded-t bg-blue-400"></div>
+      <div class="h-full w-10 rounded-t bg-blue-600"></div>
+      <div class="h-3/4 w-10 rounded-t bg-blue-500"></div>
+    </div>
+  </div>
+  <div class="rounded-lg bg-white p-6 shadow">
+    <h2 class="text-xl font-bold">Products</h2>
+    <ul class="mt-3 space-y-2">
+      <li>Laptop</li>
+      <li>Keyboard</li>
+      <li>Mouse</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 39. Sidebar + Content Grid -->
+<div class="mb-8 grid grid-cols-1 gap-4 md:grid-cols-4">
+  <aside class="rounded-lg bg-gray-800 p-6 text-white md:col-span-1">
+    <h2 class="text-xl font-bold">Sidebar</h2>
+    <p class="mt-3">Navigation</p>
+    <p class="mt-2">Settings</p>
+    <p class="mt-2">Profile</p>
+  </aside>
+  <main class="rounded-lg bg-blue-100 p-6 md:col-span-3">
+    <h2 class="text-2xl font-bold">Main Content</h2>
+    <p class="mt-3">This content occupies three of four columns on desktop.</p>
+  </main>
+</div>
+
+<!-- 40. Responsive Blog Grid -->
+<div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+  <article class="overflow-hidden rounded-xl bg-white shadow">
+    <img class="h-44 w-full object-cover"
+         src="https://picsum.photos/id/180/600/300" alt="Laptop">
+    <div class="p-5">
+      <span class="text-sm text-blue-600">Technology</span>
+      <h2 class="my-2 text-xl font-bold">Getting Started with Web Development</h2>
+      <p class="text-gray-600">Learn the essential skills for building websites.</p>
+      <a href="#" class="mt-4 inline-block font-semibold text-blue-600 hover:underline">Read More →</a>
+    </div>
+  </article>
+
+  <article class="overflow-hidden rounded-xl bg-white shadow">
+    <img class="h-44 w-full object-cover"
+         src="https://picsum.photos/id/0/600/300" alt="Computer">
+    <div class="p-5">
+      <span class="text-sm text-green-600">Programming</span>
+      <h2 class="my-2 text-xl font-bold">Why Learn Java?</h2>
+      <p class="text-gray-600">Understand the benefits of object-oriented programming.</p>
+      <a href="#" class="mt-4 inline-block font-semibold text-blue-600 hover:underline">Read More →</a>
+    </div>
+  </article>
+
+  <article class="overflow-hidden rounded-xl bg-white shadow">
+    <img class="h-44 w-full object-cover"
+         src="https://picsum.photos/id/20/600/300" alt="Nature">
+    <div class="p-5">
+      <span class="text-sm text-purple-600">Lifestyle</span>
+      <h2 class="my-2 text-xl font-bold">Improve Your Productivity</h2>
+      <p class="text-gray-600">Simple habits that help you work more effectively.</p>
+      <a href="#" class="mt-4 inline-block font-semibold text-blue-600 hover:underline">Read More →</a>
+    </div>
+  </article>
+
+  <article class="overflow-hidden rounded-xl bg-white shadow">
+    <img class="h-44 w-full object-cover"
+         src="https://picsum.photos/id/48/600/300" alt="Workspace">
+    <div class="p-5">
+      <span class="text-sm text-orange-600">Career</span>
+      <h2 class="my-2 text-xl font-bold">Preparing for Technical Interviews</h2>
+      <p class="text-gray-600">Build confidence with consistent practice.</p>
+      <a href="#" class="mt-4 inline-block font-semibold text-blue-600 hover:underline">Read More →</a>
+    </div>
+  </article>
+
+  <article class="overflow-hidden rounded-xl bg-white shadow">
+    <img class="h-44 w-full object-cover"
+         src="https://picsum.photos/id/24/600/300" alt="Books">
+    <div class="p-5">
+      <span class="text-sm text-red-600">Learning</span>
+      <h2 class="my-2 text-xl font-bold">How to Learn Faster</h2>
+      <p class="text-gray-600">Use active recall and regular revision to remember more.</p>
+      <a href="#" class="mt-4 inline-block font-semibold text-blue-600 hover:underline">Read More →</a>
+    </div>
+  </article>
+
+  <article class="overflow-hidden rounded-xl bg-white shadow">
+    <img class="h-44 w-full object-cover"
+         src="https://picsum.photos/id/26/600/300" alt="Notebook">
+    <div class="p-5">
+      <span class="text-sm text-indigo-600">Education</span>
+      <h2 class="my-2 text-xl font-bold">Build Your First Project</h2>
+      <p class="text-gray-600">Turn your programming knowledge into a practical application.</p>
+      <a href="#" class="mt-4 inline-block font-semibold text-blue-600 hover:underline">Read More →</a>
+    </div>
+  </article>
+</div>
+    
+</div>
