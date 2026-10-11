@@ -1,0 +1,11 @@
+<script>
+    function myfunc(a1, a2, a3){
+        a3();
+    }
+    myfunc(100, 200, function(){
+        console.log("Activated")
+    });
+    [10, 20, 30, 40].forEach(function(val, i){
+        console.log(val, i);
+    })
+</script>
