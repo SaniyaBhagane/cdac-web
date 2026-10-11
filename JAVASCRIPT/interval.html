@@ -1,0 +1,13 @@
+<div>
+    <img id="x1" src="" alt="">
+</div>
+<script>
+    let counter = 2;
+    setInterval( ()=>{
+        if(counter>4){counter=2;}
+        console.log(counter, counter+'.jpg');
+        document.getElementById('x1').src = counter+'.jpg';
+        counter++;
+    }, 1000);
+
+</script>
