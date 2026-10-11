@@ -1,0 +1,8 @@
+<script>
+    let password = '1@2G4ad';
+
+    let regExp = /^(?=.*[a-z])(?=.*[\d])(?=.*[A-Z])(?=.*[@#\-\$]).{4,8}$/;
+
+    let result = regExp.test(password);
+    console.log(result);
+</script>
