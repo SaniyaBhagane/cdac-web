@@ -1,0 +1,14 @@
+<script>
+    //js currying functions
+    function myfunc(p1){
+        return function(p2){
+            return function(p3){
+                return function(p4){
+                    return p1+p2+p3+p4
+                }
+            }
+        }
+    }
+    let x1 = myfunc(100)(200)(300)(400);
+    console.log(x1);
+</script>
