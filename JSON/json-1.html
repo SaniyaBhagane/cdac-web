@@ -1,0 +1,11 @@
+<div id="x1"></div>
+<script>
+    let user= '{"name":"om", "age":20, "status":true, "mark": null, "roll":["admin", "moderator"], "info":{"address":"mumbai"}}';
+    console.log(user);
+
+    //json string value --- javascript object
+    let result = JSON.parse(user);
+    console.log(result);
+
+    document.getElementById('x1').innerHTML = result.age;
+</script>

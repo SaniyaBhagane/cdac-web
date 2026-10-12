@@ -1,0 +1,19 @@
+<form onsubmit="myfunc()">
+    <input type="email" id="x1" required/> <br />
+    <input type="password" id="x2" required /> <br />
+    <button>Login</button>
+</form>
+<script>
+    function myfunc(){
+        console.log('test');
+        event.preventDefault();
+        let data1 = document.getElementById('x1').value;
+        let data2 = document.getElementById('x2').value;
+        let info = {
+            email:data1, password:data2
+        }
+        console.log(info);
+        let result = JSON.stringify(info);
+        console.log(result);        
+    }
+</script>
